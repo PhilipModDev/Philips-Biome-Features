@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "philipsbiomefeatures:oak_wood_logs",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 256973849,
+    "spacing": 10,
+    "separation": 5
+  }
+}

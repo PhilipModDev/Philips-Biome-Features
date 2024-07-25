@@ -1,0 +1,114 @@
+{
+  "name": "philipsbiomefeatures:stone_rocks",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_small_0",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_small_1",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_small_2",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_small_3",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_medium_0",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_medium_1",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_medium_2",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_medium_3",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_large_0",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_large_1",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_large_2",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "philipsbiomefeatures:stone_rock_large_3",
+        "processors": "philipsbiomefeatures:rock"
+      }
+    }
+  ]
+}

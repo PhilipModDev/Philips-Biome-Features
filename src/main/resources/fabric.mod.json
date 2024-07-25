@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "philipsbiomefeatures",
+	"version": "${version}",
+	"name": "Philip's Biome Features",
+	"description": "Mod that adds boulders, rocks, and features to Minecraft. Keeps vanilla biomes fresh with nature content.",
+	"authors": [
+		"PhilipModDev"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/ruins",
+		"sources": "https://www.curseforge.com/minecraft/mc-mods/ruins"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/philipsbiomefeatures/Philip's Biomes Features.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.philipsbiomefeatures.Mod"
+		],
+		"client": [
+			"com.philipsbiomefeatures.ModClient"
+		]
+	},
+	"mixins": [
+		"philipsbiomefeatures.mixins.json",
+		{
+			"config": "philipsbiomefeatures.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "https://www.curseforge.com/minecraft/mc-mods/ruins"
+	}
+}
